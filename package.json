@@ -1,0 +1,27 @@
+{
+  "name": "boleto-validator",
+  "version": "1.0.0",
+  "description": "Brazillian Boleto validator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiocesar/boleto-validator.git"
+  },
+  "keywords": [
+    "Boleto",
+    "Node.js"
+  ],
+  "author": "Kaio Cesar",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/kaiocesar/boleto-validator/issues"
+  },
+  "homepage": "https://github.com/kaiocesar/boleto-validator#readme",
+  "dependencies": {
+  	"express": "4.17.*"
+  }
+}
