@@ -1,15 +1,15 @@
-FROM node:12
+FROM node:14
 
 WORKDIR /usr/src/app
 
-COPY package*.json ./
+COPY package.json ./
 
 RUN npm install
 
 COPY . .
 
-EXPOSE 8000
+EXPOSE 5000
 
-CMD [ "yarn", "start" ]
+CMD [ "npm", "start" ]
 
 
